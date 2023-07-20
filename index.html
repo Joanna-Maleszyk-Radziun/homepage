@@ -10,22 +10,34 @@
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html">Strona główna</a>
+			<a href="nauka-html.html">Nauka HTML</a>
+		</nav>
+	</header>
 	<main>
 		<header>
 			<h1>
 				Maciek Korsan strona domowa
 			</h1>
+			<article id="top"></article>
 		</header>
 
 		<section>
 			<h2>Kim jestem?</h2>
+			<img src="korsi.png" alt="Zdjęcie Maćka Korsana"/>
 			<p>
-				Na co dzień uczę Frontendu wspaniałych ludzi.
+				Na co dzień uczę Frontendu wspaniałych ludzi. w ramach szkolenia
+				<a href="https://cotenfrontend.pl" target="_blank">WTF</a>
+			</p>
+			<p>
+				przeczytaj wiecej o<a href="#szkolenie"> nagrywaniu szkolenia</a>.
 			</p>
 		</section>
 
 		<section>
-			<h2>Notatki z WTF: Co ten Frontend?</h2>
+			<h2><em>Notatki z WTF: Co ten Frontend?</em></h2>
 			<article>
 				<h3>Jak stworzyć prawidłowego HTML-a?</h3>
 
@@ -37,26 +49,33 @@
 				<p>przykładowa treść</p>
 			</article>
 			<article>
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
+				<article id="szkolenie">
+					<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
 
-				<p>Na początku myślałem, że wszystko potrwa tylko 2 tygodnie, ale okazało się, że samo planowanie zajęło
-					o wiele więcej czasu…</p>
-			</article>
-			<article>
-				<h3>
-					Czy mhuehiu ooiufu jhfug?
-				</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</article>
+					<p>Na początku myślałem, że wszystko potrwa tylko 2 tygodnie, ale okazało się, że samo planowanie
+						zajęło
+						o wiele więcej czasu…</p>
+				</article>
+				<article>
+					<h3>
+						<strong>Czy mhuehiu ooiufu jhfug?</strong>
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore
+						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+						ut
+						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+						culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</article>
 		</section>
-<br>
-
-		<footer>
-			<p>Strona domowa Maciej Korsan, Szkolenie WTF: Co ten Frontend?</p>
-		</footer>
+		<br>
 	</main>
+	<footer>
+		<p>Strona domowa Maciej Korsan, Szkolenie WTF: Co ten Frontend?<a href="#top"> Do góry ⬆️</a></p>
+	</footer>
 </body>
 
 </html>
