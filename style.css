@@ -1,12 +1,32 @@
-h1 {
-    color: rgb(91, 91, 249);
+body {
+    background: #fefefe;
+}
 
+h1 {
+    color: darkgreen;
 }
 
 h2 {
     color: rgb(92, 92, 240);
 }
 
-section {
-    background: rgb(206, 205, 209);
+.czerwony {
+    color: red
+}
+
+#szkolenie {
+    background: yellow;
+}
+
+a {
+    color: green;
+}
+
+section a {
+    color: orange;
+}
+
+.my-article p {
+    background: #1460aa;
+    color: #fff;
 }
