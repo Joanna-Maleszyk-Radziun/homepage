@@ -1,9 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     background: #fefefe;
 }
 
 h1 {
     color: darkgreen;
+    padding: 16px;
 }
 
 h2 {
@@ -22,6 +31,14 @@ a {
     color: green;
 }
 
+section {
+    padding: 16px;
+}
+
+footer {
+    padding: 16px;
+}
+
 section a {
     color: orange;
 }
@@ -29,4 +46,9 @@ section a {
 .my-article p {
     background: #1460aa;
     color: #fff;
+    padding: 16px;
+}
+
+header {
+    padding: 16px;
 }
