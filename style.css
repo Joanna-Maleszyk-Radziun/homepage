@@ -61,12 +61,12 @@ section a {
 }
 
 .my-article__header {
-    color: #1460aa;
+    color: rgb(68, 56, 240);
 
 }
 
 .my-article p {
-    background: #1460aa;
+    background: rgb(68, 56, 240);
     color: #fff;
     padding: 16px;
 
@@ -82,7 +82,7 @@ header {
 
 .navigation{
     padding: 16px;
-    background: #1460aa;
+    background: rgb(68, 56, 240);
 }
 .navigation__link{
     color: white;
@@ -99,11 +99,12 @@ header {
 }
 
 .section__header{
-    color: rgb(6, 58, 58);
+    color: rgb(4, 46, 46);
+    margin-left: 64px;
 }
 
 .section__header--special{
-    color: tomato;
+    color: rgb(182, 33, 7);
 }
 
 .section__image {
