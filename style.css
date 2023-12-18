@@ -2,12 +2,15 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
 body {
     background: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .czerwony {
@@ -44,19 +47,22 @@ main {
     background: black;
     display: block;
     border-radius: 8px;
+    
 }
 
-.header {
+ .header {
     position: sticky;
-    top: 0;
-}
+    top:0;
+    text-align: center;
+    
+ }
 
 section a {
     color: #3f0569;
 }
 
 .my-article {
-   margin-bottom: 32px; 
+    margin-bottom: 32px;
 
 }
 
@@ -80,35 +86,55 @@ header {
     padding: 16px;
 }
 
-.navigation{
+.navigation {
     padding: 16px;
     background: rgb(68, 56, 240);
-}
-.navigation__link{
-    color: white;
+    
 }
 
-.page-header{
+.navigation__link {
+    color: white;
+    
+}
+
+.page-header {
     padding: 16px;
 }
 
-.section{
+.page-header__heading{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+
+
+}
+
+.section {
     background: #cdc5c5;
     margin-bottom: 16px;
     padding: 16px;
 }
 
-.section__header{
+.section__header {
     color: rgb(4, 46, 46);
     margin-left: 64px;
 }
 
-.section__header--special{
+.section__header--special {
     color: rgb(182, 33, 7);
 }
 
 .section__image {
-   max-width: 100%;
-   display: block; 
+    max-width: 100%;
+    display: block;
 }
 
+.section p{
+    line-height: 1,85;
+    font-size: 18px;
+}
+
+.special {
+    color: hotpink;
+    font-weigt: 700;
+}

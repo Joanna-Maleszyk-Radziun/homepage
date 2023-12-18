@@ -5,45 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WTF: Co ten Frontend?</title>
-
-    <link href="normalize.css" type="text/css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="/normalize.css" type="text/css" rel="stylesheet">
+    <link href="/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="nauka-html.html">Nauka HTML</a>
-            <a href="nauka-html2.html">Nauka HTML2</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="navigation__link" href="index.html">Strona główna</a>
+            <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+            <a class="navigation__link" href="nauka-html2.html">Nauka HTML2</a>
         </nav>
     </header>
+
     <main>
-        <header>
-            <h1>
-                wiecej o znacznikach HTML
-            </h1>
-            <article id="top"></article>
+        <header class="page-header" id="top">
+            <h1 class="page-header__heading page-header__heading--js">
+                Maciek Korsan - Strona domowa jest fajna</h1>
         </header>
-        <img src="znaczniki-slajd.png" alt="znaczniki pojedyncze i podwójne" />
-        <section>
-            <h2>JHVOUHGOU</h2>
+            <header>
+                <h1>
+                    wiecej o znacznikach HTML
+                </h1>
+            </header>
+            <img src="znaczniki-slajd.png" alt="znaczniki pojedyncze i podwójne">
+            <section>
+                <h2>JHVOUHGOU</h2>
 
 
-            <article>
-                <h3>O znacznkach jeszcze więcej</h3>
+                <article>
+                    <h3>O znacznkach jeszcze więcej</h3>
 
-                <p>hglhglrtihjt;oj kjhkgieurhg kuhgrkiuehg b huieurhg</p>
-            </article>
-        </section>
+                    <p>hglhglrtihjt;oj kjhkgieurhg kuhgrkiuehg b huieurhg</p>
+                </article>
+            </section>
 
     </main>
-    <br>
-    <footer class="footer">
-		<p class="footer__content">Strona domowa Maciej Korsan, Szkolenie WTF: Co ten Frontend?
-			<a class="footer__top-link" href="#top"> Do góry ⬆️</a></p>
-	</footer>
-	<script src="main.js"></script>
+        <br>
+        <footer class="footer">
+            <p class="footer__content">Strona domowa Maciej Korsan, Szkolenie WTF: Co ten Frontend?
+                <a class="footer__top-link" href="#top"> Do góry ⬆️</a>
+            </p>
+        </footer>
+        <script defer src="main.js"></script>
 </body>
 
 </html>
