@@ -71,6 +71,11 @@ section a {
 
 }
 
+
+.my-article__list {
+    list-style-type: circle;
+}
+
 .my-article p {
     background: rgb(68, 56, 240);
     color: #fff;
@@ -137,4 +142,13 @@ header {
 .special {
     color: hotpink;
     font-weigt: 700;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+table caption {
+    margin-bottom: 2rem;
 }
