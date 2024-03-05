@@ -30,6 +30,7 @@ main {
     padding: 16px;
     max-width: 768px;
     margin: 0 auto;
+
 }
 
 
@@ -50,7 +51,7 @@ main {
     
 }
 
- .header {
+.header {
     position: sticky;
     top:0;
     text-align: center;
