@@ -5,11 +5,6 @@ console.log(`Nazywam się ${firstName} i mam ${age} lat`)
 
 const header = document.querySelector('.page-header__heading--js')
 
-console.log(header.innerHTML)
-
-header.innerHTML = `Nazywam się ${firstName} i mam ${age} lat`
-
-console.log(header.style)
 
 header.style.color = 'red'
 
@@ -23,4 +18,21 @@ tekst.innerHTML = 'ciąg dalszy ćwiczeń'
 
 const gora = document.querySelector('.my-article__gora--js')
 
-gora.innerHTML = 'ćwiczę sobie querySelector'
+gora.innerHTML = 'jfndfvbfhvbr'
+
+function calculate(myNumber) {
+    myNumber = myNumber +3;
+    console.log(myNumber);
+    return myNumber*7;
+}
+
+calculate(1);
+
+const result = calculate(2);
+console.log(result);
+
+function hello() {
+    console.log('hello');
+}
+
+hello();
