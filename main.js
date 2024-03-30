@@ -20,13 +20,9 @@ const gora = document.querySelector('.my-article__gora--js')
 
 gora.innerHTML = 'jfndfvbfhvbr'
 
-function calculate(myNumber) {
-    myNumber = myNumber +3;
-    console.log(myNumber);
-    return myNumber*7;
-}
+const calculate = myNumber => (myNumber+4)*7;
 
-calculate(1);
+calculate(2);
 
 const result = calculate(2);
 console.log(result);
