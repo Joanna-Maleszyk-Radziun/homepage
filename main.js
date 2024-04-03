@@ -30,5 +30,22 @@ console.log(result);
 function hello() {
     console.log('hello');
 }
-
 hello();
+
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+    console.log(`${target} destroyed 💥`)
+    },
+    isOperating: true,
+    levels: 357,
+    name: 'Death Star',
+    population: 10000,
+    commander: {
+        name: 'Darth Vader'
+    }
+    }
+
+    console.log(deathStar.commander.name)
+    console.log(deathStar['levels'])
+    deathStar.fire('alderaan')
