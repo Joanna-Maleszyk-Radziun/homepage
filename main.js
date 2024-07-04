@@ -6,7 +6,7 @@ console.log(`Nazywam się ${firstName} i mam ${age} lat`)
 const header = document.querySelector('.page-header__heading--js')
 
 
-header.style.color = 'red'
+header.style.color = '#fefefe'
 
 const contentJs = document.querySelector('.my-article__content--js')
 
@@ -32,6 +32,9 @@ function hello() {
 }
 hello();
 
+
+
+
 const deathStar = {
     diameter: 120000,
     fire: (target) => {
@@ -49,3 +52,15 @@ const deathStar = {
     console.log(deathStar.commander.name)
     console.log(deathStar['levels'])
     deathStar.fire('alderaan')
+    
+
+    
+    const greet = (name, age) => {
+        const result = `Witaj ${name}! Masz ${age} lat.`;
+        return result;
+    }
+
+    const greeting = greet('Maciek', 35);
+    console.log(greeting);
+    console.log(greet('Asia', 85));
+    
