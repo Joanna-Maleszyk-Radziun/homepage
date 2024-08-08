@@ -1,3 +1,7 @@
+$textColor: hotpink;
+$desktop: 1280px;
+$tablet: 768px;
+
 html {
     box-sizing: border-box;
 }
@@ -56,23 +60,29 @@ main {
 
 
 
-.my-article {}
+.my-article {
+    &__header {
+        color: $textColor;
+    }
 
-.my-article__header {
-    color: rgb(68, 56, 240);
+    &__list {
+        list-style-type: circle;
+    }
 
+    p {
+        background: rgb(68, 56, 240);
+        color: #fff;
+        padding: 16px;
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: $tablet) {
+        background: tomato;
+    }
 }
 
-
-.my-article__list {
-    list-style-type: circle;
-}
-
-.my-article p {
-    background: rgb(68, 56, 240);
-    color: #fff;
-    padding: 16px;
-    margin-bottom: 0;
+ol {
+    list-style-type: disc;
 }
 
 .header {
