@@ -1,10 +1,15 @@
+import * as nowaNazwa from "./calculate";
+
 const firstName = 'Maciek Korsan';
 const age = 35;
+
+const calculate = () => 'Hej hej obliczam';
 
 console.log(`Nazywam się ${firstName} i mam ${age} lat`)
 
 const header = document.querySelector('.page-header__heading--js')
 
+console.log(nowaNazwa.calculate(2));
 
 const contentJs = document.querySelector('.my-article__content--js')
 
@@ -18,11 +23,11 @@ const gora = document.querySelector('.my-article__gora--js')
 
 gora.innerHTML = 'jfndfvbfhvbr'
 
-const calculate = myNumber => (myNumber + 4) * 7;
+
 
 calculate(2);
-
-const result = calculate(2);
+console.log(calculate());
+const result = nowaNazwa.calculate(2);
 console.log(result);
 
 function hello() {
