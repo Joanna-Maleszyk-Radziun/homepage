@@ -1,4 +1,6 @@
 import * as nowaNazwa from "./calculate";
+import { differenceInDays } from "date-fns";
+
 
 const firstName = 'Maciek Korsan';
 const age = 35;
@@ -9,7 +11,7 @@ console.log(`Nazywam się ${firstName} i mam ${age} lat`)
 
 const header = document.querySelector('.page-header__heading--js')
 
-console.log(nowaNazwa.calculate(2));
+
 
 const contentJs = document.querySelector('.my-article__content--js')
 
@@ -26,9 +28,9 @@ gora.innerHTML = 'jfndfvbfhvbr'
 
 
 calculate(2);
-console.log(calculate());
+
 const result = nowaNazwa.calculate(2);
-console.log(result);
+ 
 
 function hello() {
     console.log('hello');
@@ -52,9 +54,9 @@ const deathStar = {
     }
 }
 
-console.log(deathStar.commander.name)
-console.log(deathStar['levels'])
+ 
 deathStar.fire('alderaan')
+deathStar.fire('scarif')
 
 
 
@@ -64,8 +66,8 @@ const greet = (name, age) => {
 }
 
 const greeting = greet('Maciek', 35);
-console.log(greeting);
-console.log(greet('Asia', 85));
+
+
 
 
 const button = document.querySelector('.page-header__button--js')
@@ -74,3 +76,11 @@ button.addEventListener('click', (e) =>{
     const header = document.querySelector('.page-header__heading--js')
     header.innerHTML = 'klik, klik!';
 })
+
+
+const resultDays = differ enceInDays(
+    new Date(2025, 2, 6, 13, 0),
+    new Date()
+  )
+
+  console.log(resultDays)
