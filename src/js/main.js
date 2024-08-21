@@ -78,7 +78,7 @@ button.addEventListener('click', (e) =>{
 })
 
 
-const resultDays = differ enceInDays(
+const resultDays = differenceInDays(
     new Date(2025, 2, 6, 13, 0),
     new Date()
   )
