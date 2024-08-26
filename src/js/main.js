@@ -73,8 +73,7 @@ const greeting = greet('Maciek', 35);
 const button = document.querySelector('.page-header__button--js')
 
 button.addEventListener('click', (e) =>{
-    const header = document.querySelector('.page-header__heading--js')
-    header.innerHTML = 'klik, klik!';
+    document.documentElement.style.setProperty('--backgroundColor', 'tomato')
 })
 
 
