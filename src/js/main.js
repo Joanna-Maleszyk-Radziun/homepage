@@ -1,6 +1,6 @@
 import * as nowaNazwa from "./calculate";
 import { differenceInDays } from "date-fns";
-
+import substract from "./substract";
 
 const firstName = 'Maciek Korsan';
 const age = 35;
@@ -83,3 +83,6 @@ const resultDays = differenceInDays(
   )
 
   console.log(resultDays)
+
+
+  console.log(`Różnica między 10, a 5 to: ${substract (10, 5)}`)
