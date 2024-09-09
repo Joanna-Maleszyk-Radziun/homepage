@@ -1,21 +1,28 @@
 const elements = ['😎', '😯', '🤦‍♂️', '❤']
 
+let myNumber = 13;
+
+const myFunction = (a) => {
+    const b = a * 3;
+    const c = b * 7;
+    return b + c;
+}
+
 for (let i = 0; i < elements.length; i++){
-    console.log(`Index: ${i} Emoji: ${elements[i]}`)
+    myNumber = myNumber * (i+1);
+    myFunction (i);
 }
 
 for (let element of elements) {
-    console.log(element)
+    
 }
 
 let n = 9;
 
 do {
-    console.log(n)
+    
     n = n +3;
 } while (n < 9)
-
-console.log(n)
 
 const deathStar = {
     diameter: 120000,
@@ -32,6 +39,5 @@ const deathStar = {
 }
 
 for (property in deathStar) {
-    console.log(`${property}: `)
-    console.log(deathStar[property])
+    
 }
