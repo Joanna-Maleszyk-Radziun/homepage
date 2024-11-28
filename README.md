@@ -21,3 +21,7 @@ This is a static website, I try to use the latest technologies to build it, feat
 - CSS (transition, animation,
 - TailwindCSS (animations, transitions)
 - SVG
+
+### 2. start instructions
+
+First type the command `npm install` to start the project, then `npm run start`- to start development mode, or `npm run build` to build the project.
